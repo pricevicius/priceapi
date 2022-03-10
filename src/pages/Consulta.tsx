@@ -1,4 +1,4 @@
-import { ConsultaCep } from "../components/ConsultaCep";
+import { ConsultaCep } from "../services/ConsultaCep";
 
 export function Consulta(){
    return (

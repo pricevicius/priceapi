@@ -1,6 +1,5 @@
 import axios from "axios"
-import React, { useEffect, useState } from "react"
-import api from "../services/Api"
+import React from "react"
 
 export class ConsultaCep extends React.Component{
 
@@ -11,8 +10,6 @@ export class ConsultaCep extends React.Component{
          this.state = {
             cep: []
          }
-
-
          this.handleSubmit = this.handleSubmit.bind(this)
       }
 
