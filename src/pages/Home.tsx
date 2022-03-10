@@ -1,0 +1,10 @@
+export function Home(){
+   return (
+      <div class="home">
+         <h2>Olá</h2>
+         <p>Nulla vitae neque lacus. Fusce quis molestie diam. Integer ex felis, tempus in convallis et, commodo ac turpis. Nunc vestibulum mauris sed mi condimentum, ut varius diam pulvinar. Nunc blandit eget ipsum sed dictum. Suspendisse sed massa et urna congue ornare vulputate a justo. Vivamus ultricies, ante a varius cursus, massa velit pulvinar tortor, sit amet maximus lacus nibh eget sapien. Aliquam vitae lectus a enim dictum volutpat. Donec arcu neque, tristique a convallis sed, aliquam ac urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus id neque magna. Nunc mattis malesuada aliquet. Curabitur non pretium urna. Donec pellentesque, ante placerat congue lobortis, dui eros ultrices urna, sit amet porta diam tellus quis tellus. Morbi tempus ullamcorper augue, nec convallis turpis elementum et.</p>
+         <p>Pellentesque ullamcorper risus turpis, ut accumsan eros suscipit aliquam. Suspendisse rhoncus sollicitudin massa sed maximus. Integer non maximus erat. Donec dui augue, euismod at congue eu, venenatis ac tellus. Aliquam erat volutpat. Donec tempor orci massa, id dictum mi maximus eget. Nam tortor mi, iaculis nec metus aliquam, rhoncus consequat tortor. Ut libero augue, tristique ac elit sit amet, consequat mollis odio.</p>
+         <p>Suspendisse rutrum accumsan nibh, ac elementum est laoreet eget. Aenean et tincidunt libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus ipsum vitae ipsum lacinia, non tempus dui porttitor. Vivamus blandit dictum cursus. Cras faucibus turpis augue, volutpat ullamcorper magna finibus varius. Donec non cursus ex, ut dignissim diam. Fusce iaculis rhoncus eleifend. Aliquam interdum maximus ullamcorper. Cras mi velit, tempus vitae odio vitae, suscipit imperdiet nisi. Vestibulum placerat egestas nisl ac tempor.</p>
+      </div>
+   )
+}

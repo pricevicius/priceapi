@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-weight: 300;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #e1e1e1;
+  margin: 0 auto;
+}
+
+header h1 {
+  display: block;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+header ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+header ul li {
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+main .home {
+  background-color: #e1e1e1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+main .cep .retorno {
+  background-color: grey;
+  margin-top: 10px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: blueviolet;
+  color: #fff;
+  max-height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
