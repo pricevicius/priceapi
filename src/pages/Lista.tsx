@@ -1,4 +1,4 @@
-import { Posts } from "../services/ListPosts"
+import { Posts } from "../components/ListPosts"
 
 export function Lista(){
 
