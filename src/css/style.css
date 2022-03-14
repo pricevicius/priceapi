@@ -28,25 +28,37 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 100px;
   background-color: #e1e1e1;
   margin: 0 auto;
 }
 
 header h1 {
-  display: block;
-  color: blueviolet;
+  color: white;
   font-weight: 700;
+  height: 40px;
+  background: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 38px;
+  margin: 20px;
 }
 
 header ul {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-line-pack: justify;
       align-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  list-style: none;
+  height: 40px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 header ul li {
